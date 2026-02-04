@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Cake</title>
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+
+  <div class="order-page">
+
+    <!-- Header -->
+    <div class="order-header">
+      <h1>Order Your Cake</h1>
+      <p>Fresh, delicious cakes made just for you 🎂</p>
+    </div>
+
+    <!-- Order Container -->
+    <div class="order-container">
+
+      <!-- Cake Preview -->
+      <div class="cake-preview">
+        <img src="/images/bd3.jpg" alt="Cake">
+        <h3>Chocolate Delight</h3>
+        <p>Rich chocolate cake with creamy frosting</p>
+        <span class="price">N30000</span>
+      </div>
+
+      <!-- Order Form -->
+      <div class="order-form">
+        <h2>Order Details</h2>
+
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+            <label for="">Cake Flavour</label>
+            <select name="" id="">
+                <option value="">Strawberry</option>
+                <option value="">Plain</option>
+                <option value="">Vanilla</option>
+                <option value="">Red Velvet</option>
+            </select>
+        </div>
+
+
+        <div class="form-group">
+            <label for="">Icing  Flavour</label>
+            <select name="" id="">
+                <option value="">Full Cream</option>
+                <option value="">Oreo Cream</option>
+                <option value="">Bananna Cream</option>
+                <option value="">Bubble Gum </option>
+            </select>
+        </div>
+
+        <div class="form-group">
+          <label>Cake Size</label>
+          <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Quantity</label>
+          <input type="number" value="1" min="1">
+        </div>
+
+        <div class="form-group">
+          <label>Delivery Date</label>
+          <input type="date">
+        </div>
+
+        <div class="form-group">
+          <label>Message on Cake</label>
+          <textarea placeholder="Optional message"></textarea>
+        </div>
+
+        <button class="btn-order">Place Order</button>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
